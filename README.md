@@ -1,7 +1,0 @@
-# TaskSpark
-
-## Description
-
-## Deployment
-
-
