@@ -15,10 +15,7 @@ services:
   web:
     depends_on:
       - postgres_db
-    build:
-      context: .
-      dockerfile: Dockerfile
-    image: taskspark
+    image: dgclasher/taskspark
     environment:
       - PORT=8000
     env_file:
