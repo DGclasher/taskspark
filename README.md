@@ -8,7 +8,12 @@ A simple todo list API using graphQL
 
 ### Using Docker Compose
 
-Create a `.env` file at the root of project with following contents
+Get the `docker-compose.yml`
+```
+wget https://github.com/DGclasher/taskspark/raw/deployment/docker-compose.yml
+```
+
+Create a `.env` file at same location as `docker-compose.yml`
 ```
 DEBUG=1
 
@@ -25,4 +30,11 @@ DJANGO_SUPERUSER_PASSWORD=
 SECRET_KEY=
 ```
 
+Bring up the services
+```
+sudo docker-compose up -d
+```
 
+Application can be accessed at port `8001`
+
+###
