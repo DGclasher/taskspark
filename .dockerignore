@@ -1,5 +1,6 @@
 .env
 .git
 venv
+.github
 .gitignore
 **/__pycache__
