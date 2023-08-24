@@ -16,6 +16,7 @@ services:
     depends_on:
       - postgres_db
     image: dgclasher/taskspark
+    pull_policy: always
     environment:
       - PORT=8000
     env_file:
