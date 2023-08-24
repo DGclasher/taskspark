@@ -8,11 +8,6 @@ A simple todo list API using graphQL
 
 ### Using Docker Compose
 
-Get the `docker-compose.yml`
-```
-wget https://github.com/DGclasher/taskspark/raw/deployment/docker-compose.yml
-```
-
 Create a `.env` file at same location as `docker-compose.yml`, refer to [this](./.env.example) for creating `.env` file.
 
 Bring up the services
